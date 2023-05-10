@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100vw;
+}
+.main {
+     height: 73vh;
+     text-align: center;
+}
+.main-menu {
+    text-align: center;
+}
+.main-menu > button {
+    margin: 10px;
+    padding: 5px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+footer {
+    background-color: aqua;
+    width: 96vw;
+    padding: 2vw;
+}
